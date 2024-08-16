@@ -14,4 +14,4 @@ if business:
     products = response['products']
     st.write("**Products that we are selling**")
     for item in products:
-        st.write("->",item)
+        st.write("*",item)
