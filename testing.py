@@ -14,3 +14,6 @@ llm = HuggingFaceHub(
 print("llm set")
 name = llm("Suggest a name for a tech startup")
 print(name)
+
+
+
