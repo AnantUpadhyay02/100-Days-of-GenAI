@@ -6,7 +6,7 @@ import api_key
 api_hf = api_key.hf_key
 
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = api_hf
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = api_hf #the api key must stay hidden due to security reasons
 llm = HuggingFaceHub(
     repo_id="distilgpt2",
     model_kwargs={"temperature": 0.6},
