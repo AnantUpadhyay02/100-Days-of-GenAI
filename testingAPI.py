@@ -14,4 +14,4 @@ response = requests.get("https://huggingface.co/api/models/gpt2", headers=header
 if response.status_code == 200:
     print("Token is valid, connection successful!")
 else:
-    print(f"Error: {response.status_code}, {response.text}")
+    print(f"ErrorOccured: {response.status_code}, {response.text}")
