@@ -12,6 +12,6 @@ headers = {"Authorization": f"Bearer {API_TOKEN}"}
 response = requests.get("https://huggingface.co/api/models/gpt2", headers=headers)
 
 if response.status_code == 200:
-    print("Token is valid, connection successful!")
+    print("Token is valid, Connection successful!")
 else:
     print(f"ErrorOccured: {response.status_code}, {response.text}")
